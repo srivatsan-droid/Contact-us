@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(149, 181, 184);
+    color: #400040;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    background: #abbeb5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+}
+
+.right-column {
+    width: 40%;
+}
+
+.logo img {
+    width: 100%;
+    height: 45% auto;
+}
+
+.form-content {
+    padding: 40px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #d4402d;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 10px 10px;
+    color: #8f4848;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #cc9292;
+    box-shadow: 4px 4px rgb(85, 136, 168);
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #ca857c;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+#btn-submit {
+    color: #2c2323;
+    background-color: #ca857c;
+    box-shadow: 4px 5px #83746f;
+}
+
+#btn-submit:hover {
+    background-color: #b06d63;
+}
+
+#create {
+    color: #3b3131;
+    background-color: rgb(71, 224, 230);
+}
+
+#create:hover {
+    background-color: #0be2d7;
+}
+
+.signin-link {
+    color: #ca857c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signin-link:hover {
+    text-decoration: underline;
+}
